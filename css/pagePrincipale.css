@@ -1,0 +1,96 @@
+/*Feuille de style principal du site K-TRÉAL*/
+
+/*Police Titan One*/
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+/*Police Passion One*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+/*Conteneurs Principaux*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#8C52FF;
+    color: white;
+    margin: 0 auto;
+    overflow-x:hidden ;
+    /*Par défaut*/
+    font-family: sans-serif;
+}
+
+main > section{
+    margin-bottom: 80px;
+}
+
+footer{
+    padding-top: 15px;
+    width: 100vw;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+/*Le gros titre dans le footer*/
+footer > h3{
+    color:#FFDE59;
+    font-family: 'Titan One', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*Le conteneur de la section d'information du collège*/
+#infoCollege{
+    color: orange;
+    font-size: 1.5em;
+    font-family: 'Passion One', sans-serif;
+
+}
+
+/*Le conteneur de la section du partage des réseaux*/
+#reseaux{
+    color: orange;
+    font-size: 1.5em;
+    font-family: 'Passion One', sans-serif;
+
+}
+
+/*Conteneur des id infoCollege et de reseaux*/
+#blocInfoFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#logoReseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h6{
+    font-size: 1em;
+    color: #8C52FF;
+    text-align: center;
+    font-family: 'Passion One', sans-serif;
+}
+
+
+
+
+
+
+

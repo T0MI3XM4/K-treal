@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/pagePrincipale.css">
+    <link rel="stylesheet" href="css/entete.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/tableau.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/galerie.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    
+    <title>K-TRÉAL</title>
+</head>
+<body>
+    <!--L'entête-->  
+    <header>
+        <div id="conteneurHeader">
+            
+            <!--Image du logo-->
+            <img class="logo" src="images/Logo.png" alt="Baton kpop">
+
+            <!--Barre de recherche-->
+            <div id="barreRecherche">
+                <input type="text" placeholder="Rechercher..." >
+                <button><img id="loupe" src="images/loupe.png" alt="loupe"></button>
+            </div>
+
+            <!--Image pour le compte-->
+                <img class="compte" src="images/compte.png" alt="image compte">
+            </div>
+
+    </header>
+
+    
+     <!--Barre de navigation-->
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#formulaire">Formulaire</a>
+        <a href="#tableau">Tableau</a>
+        <a href="#articles">Articles</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#PiedDePage">Pied de Page</a>
+    </nav>
+
+
+    <main>
+         <!--L'acceuil-->
+        <section id="accueil">
+
+            <h2>Le Festival de <span>K-pop</span> le plus attendu au Québec!</h2>
+            
+            <div id="divertissement">
+                <h3><a href="#">Activités</a></h3>
+                <h3><a href="#">Spectacles</a></h3>
+                <h3><a href="#">Concours</a></h3>
+            </div>
+
+           
+             <!--Le conteneur des 6 cercles-->    
+            <div id="positionBloc">
+                <div id="bloc1"></div>
+                <div id="bloc2"></div>
+                <div id="bloc3"></div>
+                <div id="bloc4"></div>
+                <div id="bloc5"></div>
+
+            </div>
+
+           <!--Le conteneur des informations personnelles-->  
+            <div id="blocInfo"> 
+                <p>TP2</p>
+                <p>K-TRÉAL</p>
+                <p>Rima Wangue</p>
+                <p>582-1W1-Mise en page Web</p>
+                <p>Technique d'intégration multimédia</p>
+                <p>Collège de Maisonneuve</p>
+                <p>Automne 2023</p>  
+                <p>https://github.com/T0MI3XM4/K-treal.git </p>
+            </div>
+
+            
+        </section>
+
+            <!--Le formulaire-->  
+            <section id="formulaire">
+                <h2>Participez à notre Concours!</h2>
+                <form action="">
+                      
+                        <fieldset id="documentForm">
+
+                                <!--Le conteneur des informations d'identifications-->  
+                                <fieldset id="identification">
+                                    
+                                    <!--Le conteneur des informations pour l'inscription-->  
+                                    <fieldset class="inscription">
+                                        <h2>Inscription</h2>
+                                            <label>Prénom:
+                                            <input type="text" placeholder="Écrire ici" required></label>
+
+                                            <label>Nom:
+                                            <input type="text" placeholder="Écrire ici" required></label>
+
+                                            <label>Email:
+                                            <input type="email" placeholder="Écrire ici" required></label>
+                                           
+                                            <label for="pass">Mot de Passe: </label> 
+                                            <input type="password" placeholder="Écrire ici" name="password" minlength="8" required />
+
+                                            <label>Numéro de Téléphone:
+                                                <input type="tel" placeholder="Écrire ici" required></label>
+
+                                                <fieldset class="notification">
+                                                    <div>J'accepte de recevoir des notifications par email pour tous évènements ou activités à venir.</div>
+                                                    <label><input type="radio" name="vote"><span></span>oui</label>
+                                                    <label><input type="radio" name="vote"><span></span>non</label>
+                                                </fieldset>
+
+                                                <fieldset class="lesBoutons">
+                                                    <input type="reset" value="Annuler">
+                                                    <input type="submit" value="Incription">
+                                                </fieldset>
+
+                                    </fieldset>
+                                    
+                                    <!--Le conteneur des informations pour la connection-->  
+                                    <fieldset class="connection">
+                                        <h2>Connection</h2>
+                                        <label> Email:
+                                            <input type="email" placeholder="Écrire ici" required></label>
+
+                                            <label for="pass">Mot de Passe: </label> 
+                                            <input type="password" id="pass" placeholder="Écrire ici" name="password" minlength="8" required />
+
+                                        <fieldset class="lesBoutons">
+                                            <input type="reset" value="Annuler">
+                                            <input type="submit" value="Connection">
+                                        </fieldset>
+                                    </fieldset>
+
+                                </fieldset>
+                            
+                            <!--Le conteneur du questionnaire-->  
+                            <fieldset class="questionnaire">
+                                <h2>Le Questionnaire</h2>
+                                <fieldset>
+                                    <legend><b>Le Boy band qui a vendu le plus de disque?</b></legend>
+                                    <div class="choixPosition">
+                                        <label><input type="radio" name="vote"><span></span>Exo</label>
+                                        <label><input type="radio" name="vote"><span></span>BTS</label>
+                                        <label><input type="radio" name="vote"><span></span>Shinee
+                                        </label>
+                                    </div>
+                                </fieldset>
+                                
+                                <div>
+                                    <label><b>Qui ne fait pas partie de New Jeans?:</b>
+                                        <select class="choixPosition">
+                                            <option value="1">Hanni</option>
+                                            <option value="2">Moonbyul</option>
+                                            <option value="2">Minji</option>
+                                            <option value="3">Haerin</option>
+                                            <option value="4">Danielle</option>
+                                        </select>
+                                    </label>
+                                </div>
+                
+                                <fieldset>
+                                    <legend><b>Les origines de Somni</b></legend>
+
+                                    <div class="choixPosition">
+                                            <label><input type="checkbox">Canada</label>
+                                            <label><input type="checkbox">Corée du Sud</label>
+                                            <label><input type="checkbox">Australie</label>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend><b>Qui est la leader de BlackPink?</b></legend>
+                                    <div class="choixPosition">
+                                        <label><input type="radio" name="vote"><span></span>Jennie</label>
+                                        <label><input type="radio" name="vote"><span></span>Rose</label>
+                                        <label><input type="radio" name="vote"><span></span>Jisoo</label>
+                                    </div>
+                                </fieldset>
+
+                                <div>
+                                    <label><b>Quel groupe a chanté Miroh?:</b>
+                                        <select class="choixPosition">
+                                            <option value="1">Exo</option>
+                                            <option value="2">Stray Kids</option>
+                                            <option value="3">BTS</option>
+                                            <option value="4">NCT127</option>
+                                            <option value="4">TXT</option>
+                                        </select>
+                                    </label>
+                                </div>
+
+                                <fieldset>
+                                    <legend><b>Quel est le groupe le plus récent?</b></legend>
+                                    <div class="choixPosition">
+                                        <label><input type="checkbox">NewJeans</label>
+                                        <label><input type="checkbox">Aespa</label>
+                                        <label><input type="checkbox">Baby Monster</label>
+                                    </div>
+                                </fieldset>
+                
+                                <fieldset>
+                                    <legend><b>Pourquoi aimes-tu la Kpop?</b></legend>
+                                    <textarea rows="5">Écrire ici</textarea>
+                                </fieldset>
+                                <fieldset class="lesBoutons">
+                                    <input type="reset" value="Annuler">
+                                    <input type="submit" value="Soumettre">
+                                </fieldset>
+
+                            </fieldset>
+
+                        </fieldset>
+                                
+                </form>
+
+            </section>
+
+
+            <!--Le tableau-->  
+            <section id="tableau">
+                
+                <table>
+
+                    <caption> <h2>Nos Tarifs</h2> </caption>
+
+                    <thead>
+                        <th>Billets</th>
+                        <th>BIAS</th>
+                        <th>Saragnea KPOP</th>
+                        <th>Golden Maknae</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>Entrée</th>
+                            <td>1 journée/1 ticket</td>
+                            <td>1 semaine/1 ticket</td>
+                            <td>2 semaine/3 tickets</td>
+                        </tr>
+    
+                        <tr>
+                            <th>Avantages</th>
+                            <td>1 bouteille d'eau gratuite</td>
+                            <td>1 bâton de groupe illuminé</td>
+                            <td>3 place dans la section VIP</td>
+                        </tr>
+    
+                        <tr>
+                            <th>Spéciaux</th>
+                            <td>1 bracelet illuminé</td>
+                            <td>Accès au photobooth</td>
+                            <td>3 repas gratuit</td>
+                        </tr>
+    
+                        <tr>
+                            <th>Coût</th>
+                            <td>54$</td>
+                            <td>300$</td>
+                            <td>1500$</td>
+                        </tr>
+    
+                        <tr>
+                            <th></th>
+                            <td class="achat"> <a>Achetez</a></td>
+                            <td class="achat"><a>Achetez</a></td>
+                            <td class="achat"><a>Achetez</a></td>
+                        </tr>
+    
+                    </tbody>
+
+                    <tfoot>
+                        <td colspan="4"><a>Cliquez ici! Pour en savoir plus!</a></td>
+                    </tfoot>
+
+                </table>
+    
+            </section>
+
+
+        <!--Les articles-->  
+        <section id="articles">
+            <h2>K-Tréal C'est Quoi?</h2>
+            
+            <div id="blocArticle">
+
+                <article>
+                    <h3>Des Souvenirs</h3>
+                    <p>
+                        Dans l'éclatante effervescence d'un festival de K-pop, les souvenirs s'épanouissent comme des pétales de fleurs multicolores sous le soleil éclatant de la musique entraînante
+                    </p>
+
+                    <img src="images/souvenir.png" alt="image d'amis">
+
+                    <p>
+                        Les premiers échos lointains de la musique, les battements sourds des basses résonnant dans l'air, annoncent l'avènement d'un monde où la passion pour la K-pop prend vie.   
+                    </p>
+
+                </article>
+
+
+                <article>
+                    <h3>De L'art</h3>
+                    <p>
+                        Les performances elles-mêmes sont comme des feux d'artifice visuels, éblouissant les spectateurs avec des chorégraphies impeccables, des costumes éclatants et une énergie débordante.
+                    </p>
+
+                    <img src="images/art.png" alt="image de danseurs">
+
+                    <p>
+                        Les premières notes résonnent, déclenchant une déferlante d'émotions dans la foule. La synchronisation parfaite des mouvements de danse et des harmonies vocales crée une symphonie vivante qui transcende les frontières linguistiques.
+                    </p>
+
+                </article>
+
+
+                <article>
+                    <h3>De la Magie</h3>
+                    <p>   
+                        Au-delà des éclats de la scène principale, le festival de K-pop offre un kaléidoscope d'activités qui enrichissent l'expérience, transformant l'événement en une célébration immersive de la culture et de la créativité.
+                    </p>
+
+                    <img src="images/Magie.png" alt="image d'un concert">
+
+                    <p>
+                        Des séances d'autographes, des rencontres avec des influenceurs de la K-pop et des événements de réseautage créent une communauté éphémère mais intense, où les liens se tissent au fil de l'amour partagé pour la musique.
+                    </p>
+
+                </article>
+
+            </div>
+            
+        </section>
+
+
+        <!--La galerie-->  
+        <section id="galerie">
+            <h2>Nos Artistes</h2>
+
+            <div id="artiste">
+                <div id="blocArtiste1">
+                    <img src="images/artiste1.png" alt="image d'un groupe de filles">
+                    <img src="images/artiste2.png" alt="image d'un groupe de garçons">
+                    <img src="images/artiste3.png" alt="image garçon">
+                </div>
+
+                <div id="blocArtiste2">
+                    <img src="images/artiste4.png" alt="image d'un garçon">
+                    <img src="images/artiste5.png" alt="image d'un groupe de garçons">
+                    <img src="images/artiste6.png" alt="image d'un garçon">
+                </div>
+
+                <div id="blocArtiste3">
+                    <img src="images/artiste7.png" alt="image d'une fille">
+                    <img src="images/artiste8.png" alt="image d'une fille">
+                    <img src="images/artiste9.png" alt="image d'une fille">
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+
+
+    <!--Le pied de page-->  
+    <footer id="PiedDePage">
+        
+        <h3>Que La KPOP soit avec vous!</h3>
+        
+        <div id="blocInfoFooter">
+            <div id="infoCollege">
+                <p>Collège de Maisonneve</p>
+                <p>Images libre de droit provenant de : https://www.canva.com/</p>
+                <p>Textes concus par OpenAI : https://openai.com/chatgpt</p>
+                <p>Technique d'intégration multimédia</p>
+            </div>
+            
+            <div id="reseaux">
+                <p>Suivez nous sur nos réseaux!</p>
+                <div id="logoReseaux">
+                <img src="images/youtube_32.png" alt="logo youtube">
+                <img src="images/facebook_32.png" alt="logo facebook">
+                <img src="images/instagram_32.png" alt="logo instagram">
+                </div>
+            </div>
+        </div>
+
+        <h6>Avis de confidentialité | Privacy Notice</h6>
+
+    </footer>
+
+
+
+    
+
+
+    
+</body>
+</html>

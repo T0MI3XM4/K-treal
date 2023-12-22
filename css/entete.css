@@ -1,0 +1,121 @@
+/*Feuille de style pour le conteneur header et la barre de navigation du site K-TRÉAL/
+
+/*Conteneur Principal*/
+header{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+}
+
+#conteneurHeader{
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/*Image du logo*/
+.logo{
+    width: 300px;
+}
+
+
+/*Barre de recherche dans le header*/
+#barreRecherche{
+    width: 400px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#barreRecherche > input{
+    color: #FFBD59;
+    width: 300px;
+    height: 30px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 1.5em;
+    border: none;
+    padding: 6px;
+}
+
+#barreRecherche > button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    height: 45px;
+    width: 45px;
+}
+
+#loupe{
+    width: 30px;
+}
+
+/*image pour le accéder au compte de l'utilisateur*/
+.compte{
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    transition: all 2s;
+}
+
+/*image pour le accéder au compte de l'utilisateur en survol*/
+.compte:hover{
+    transform: rotate(360deg);
+}
+
+
+
+/*Menu (barre de navigation)*/
+
+
+/*Barre de navigation*/
+nav{
+    position: sticky;
+    z-index: 100;
+    top: 20px;
+    margin: 0 auto;
+    background-color:#FFBD59 ;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    width: 60vw;
+    min-width: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav:hover{
+    background-color: #C1FF72;
+}
+
+
+nav > a{
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Passion One', sans-serif;
+    color: white;
+}
+
+nav > a:hover{
+  color: #FFBD59;
+}
+
+nav > a:active{
+    color:#8C52FF;
+  }
+
+nav > a:first-child{
+    text-decoration: underline;
+}
+
+

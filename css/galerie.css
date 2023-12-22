@@ -1,0 +1,66 @@
+/*Feuille de style pour la section dgalerie du site K-TRÉAL*/
+
+/*Conteneur Principal*/
+#galerie{
+    height: 850px;
+    padding-top: 100px;
+
+}
+
+/*Gros titre du conteneur Articles*/
+#galerie > h2{
+    color:#C1FF72;
+    font-family: 'Titan One', sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+/*Conteneurs des photos des artistes*/
+#galerie > #artiste{
+    width: 1600px;
+    height: 780px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+}
+
+/*Images des artistes*/
+#artiste  img{
+    width: 230px;
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 255, 0);
+    transition: all 2s;
+    
+}
+
+/*Images des artistes en survol*/
+#artiste img:hover{
+    border: 10px #FFDE59 solid;
+    transform: rotate(360deg);
+    
+}
+
+/*Conteneur des 3 premiers images artistes*/
+#blocArtiste1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/*Conteneur des 3 images artistes au milieu*/
+#blocArtiste2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*Conteneur des 3 derniers images artistes*/
+#blocArtiste3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}

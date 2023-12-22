@@ -1,0 +1,89 @@
+/*Feuille de style de la section tableau du site K-TRÉAL*/
+
+/*Conteneur Principal*/
+#tableau{
+    height: 850px;
+    padding-top: 100px;
+
+}
+
+table{
+    margin: 0 auto;
+    width: 880px;
+    height: 650px;
+    color: white;
+    border-collapse: collapse;
+    background-color:#ffcb7c;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Titre du tableau*/
+caption{
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-family: 'Titan One', sans-serif;
+    border-bottom: none;
+    color: orange;
+    height: 100px;
+    font-family: 'Titan One', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+
+/*Les titres des colonnes*/
+th{
+    border: 3px #BB99FF solid;
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    font-family: 'Passion One', sans-serif;
+    letter-spacing: 0.05em;
+    color: #8C52FF;
+
+}
+
+/*Les titres de des lignes*/
+tbody > tr > th{
+    color:white;
+}
+
+/*Les cellules du tableau*/
+tbody > tr >td{
+    border: 3px rgba(255, 255, 255, 0.527) solid;
+    font-family: 'Titan One', sans-serif;
+    font-size: 1.5em;
+    color: orange;
+}
+
+/*Les dernières cellules des colonnes*/
+tbody > tr > .achat{
+    color: #FFDE59;
+    font-size: 2em;
+}
+
+/*Les dernières cellules des colonnes en survole*/
+tbody > tr > .achat:hover{
+    color: #BB99FF;
+}
+
+
+
+/*La cellule du bas*/
+tfoot{
+    height: 50px;
+    color:#BB99FF;
+    font-family: 'Titan One', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+/*La cellule en survol*/
+tfoot:hover{
+    color:white;
+    text-decoration: none;
+}
+

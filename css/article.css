@@ -1,0 +1,86 @@
+/*Feuille de style pour la section à propos du site K-TRÉAL*/
+
+/*Conteneur Principal*/
+#articles{
+    height: 850px;
+    padding-top: 100px;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*Gros titre du conteneur Articles*/
+#articles > h2{
+    color:#FFDE59;
+    font-family: 'Titan One', sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+/*Conteneurs des articles*/
+#blocArticle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/*Les articles*/
+#articles > #blocArticle > article{
+    width: 500px;
+    min-width: 450px;
+    height: 600px;
+    transition: all 2s;
+    border: #BB99FF dotted 10px;
+    border-radius: 10px;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color:#FFBD59 ;
+
+}
+
+/*effet de survol des articles*/
+#articles > #blocArticle > article:hover{
+    width: 600px;
+    border: #FFBD59 dotted 10px;
+    background-color: #8C52FF;
+
+}
+
+/*Les titres des articles*/
+article > h3{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Titan One', sans-serif;
+    color: #BB99FF;
+}
+
+/*Les paragraphes des articles*/
+article > p{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Titan One', sans-serif;
+    color:#FFBD59; 
+    text-align: justify;
+}
+
+/*Les images dans les articles*/
+article > img{
+    width: 300px;
+    border-radius: 10px;
+    transition: all 2s;
+    opacity: 0;
+
+}
+
+/*effet de survol des images*/
+article:hover > img{
+  opacity: 1;
+}
+

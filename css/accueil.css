@@ -1,0 +1,165 @@
+/*Feuille de style pour la section d'acceuil du site K-TRÉAL*/
+
+/*Conteneur Principal*/
+#accueil{
+    height: 850px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*Grand titre*/
+#accueil > h2{
+    color:#FFDE59;
+    font-family: 'Titan One', sans-serif;
+    font-size: 4em;
+    text-align: center;
+
+}
+
+/*le mot kpop dans le grand titre*/
+#acceuil > h2 > span{
+    color:#BB99FF;
+}
+
+/*Conteneur des 3 divertissement*/
+#divertissement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Les 3 texte de divertissement*/
+#divertissement > h3 >a{
+    color:white;
+    font-family: 'Passion One', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    transition: font-size 3s;
+
+}
+
+
+/*Les 3 texte de divertissement en survol*/
+#divertissement > h3 > a:hover{
+    color:#C1FF72;
+    font-family: 'Passion One', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 5em;
+    text-align: center;
+
+}
+
+
+/*Conteneur de tous les cercles*/
+#positionBloc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+/*Les 6 cercles de  gauche à droite avec les effets de survols*/
+#bloc1{
+    background-color: #FFBD59;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transition: all 2s;
+
+}
+
+#bloc1:hover{
+    transform: scaleX(2);
+
+}
+
+#bloc2{
+
+    background-color: #FFDE59;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transition: all 2s;
+
+}
+
+#bloc2:hover{
+    transform: scaleX(2);
+    
+}
+
+#bloc3{
+    background-color: #BB99FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: all 2s;
+
+}
+
+#bloc3:hover{
+    transform: scaleX(2);
+    
+}
+
+#bloc4{
+    background-color: #FFDE59;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transition: all 2s;
+
+}
+
+#bloc4:hover{
+    transform: scaleX(2);
+    
+}
+
+#bloc5{
+    background-color:#FFBD59;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transition: all 2s;
+
+}
+
+#bloc5:hover{
+    transform: scaleX(2);
+    
+}
+
+
+/*Mes informations personnelles*/
+#blocInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#blocInfo > p{
+    font-size: 2em;
+    font-family: 'Passion One', sans-serif;
+    color: #FFBD59;
+    border:#C1FF72 5px solid ;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+/*effet en survol*/
+#blocInfo > p:hover{
+    color: white;
+}
+
+
+

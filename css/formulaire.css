@@ -1,0 +1,130 @@
+/*Feuille de style de la section formulaire du site K-TRÉAL*/
+
+/*Conteneur Principal*/
+#formulaire{
+    height: 1000px;
+    padding-top: 100px;
+}
+
+/*Gros titre Concours*/
+#formulaire > h2{
+    font-family: 'Titan One', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #FFDE59;
+    font-size: 3em;
+}
+
+/*le formulaire*/
+#documentForm{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: #FFBD59;
+    width: 850px;
+    height: 730px;
+    border-radius: 10px;
+    border: 8px solid #BB99FF ;
+}
+
+/*la section d'identification*/
+#identification{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 700px;
+  font-size: 1.3em;
+  border: none;
+}
+
+/*Le conteneur du questionnaire*/
+.questionnaire{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.3em;
+  border: none;
+}
+
+/*Titre du questionnaire*/
+.questionnaire > h2{
+  text-align: center;
+  color: #8C52FF;
+  font-family: 'Passion One', sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.02em;
+}
+
+/*Titre d'inscription*/
+.inscription > h2{
+  text-align: center;
+  color:#BB99FF ;
+  font-family: 'Passion One', sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.02em;
+}
+
+/*Titre de connection*/
+.connection > h2{
+  text-align: center;
+  color: #BB99FF;
+  font-family: 'Passion One', sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.02em;
+}
+
+/*Espace d'écriture*/
+textarea{
+  width: 100%;
+  resize: none;
+
+}
+
+/*Conteneur de la section d'inscription*/
+.inscription{
+  margin-top: 10px;
+  width: 200px;
+  border: none;
+  
+}
+
+
+span, input[type="checkbox"]{
+  margin-right: 5px;
+}
+
+/*Texte d'acceptation des notifications*/
+.notification{
+  border: none;
+  text-align: justify;
+  padding: 0;
+  margin-top: 15px;
+
+}
+
+/*Conteneur de la section de connection*/
+.connection{
+  margin-top: 7px;
+  width: 200px;
+  border: none;
+
+}
+
+/*Conteneur des boutons soumettre et annuler*/
+.lesBoutons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: none;
+}
+
+/*positionner les choix dans le questionnaire*/
+.choixPosition{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
